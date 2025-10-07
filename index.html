@@ -1,0 +1,436 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>mexdev | Developer Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-content">
+            <div class="logo">mexdev</div>
+
+            <!-- BOTÓN ☰ SOLO EN MÓVIL -->
+            <button class="mobile-menu-btn" id="mobileMenuBtn">☰</button>
+
+            <!-- MENÚ -->
+            <ul class="nav-links" id="navLinks">
+                <li><a href="index.html">Sobre mí</a></li>
+                <li><a href="#experiencia">Experiencia</a></li>
+                <li><a href="#proyectos">Proyectos</a></li>
+                <li><a href="#contact">Contacto</a></li>
+            </ul>
+        </div>
+    </nav>
+
+
+    <!-- Main Container -->
+    <div class="container">
+        <!-- Left Column - Profile -->
+        <div class="profile-section">
+            <div class="profile-card">
+                <div class="profile-image">
+                    <div class="availability">Activo</div>
+                    <div class="image-placeholder">
+                        <img src="img/developer.jpeg"
+                            alt="Profile Image" style="max-width: 100%; border-radius: 8px;" />
+                    </div>
+                </div>
+
+                <div class="profile-info">
+                    <h2>Diego Celis Segovia</h2>
+                    <p>Tecnico de software con IA</p>
+                </div>
+                <div class="connect-section">
+                    <button>
+                        <span class="icon_shadow">CONTACTO</span>
+                        <!-- Ícono de usuario/persona -->
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" stroke-width="2" stroke="white"
+                            viewBox="0 0 24 24">
+                            <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z" />
+                            <polyline points="22,6 12,13 2,6" />
+                        </svg>
+                    </button>
+                </div>
+            </div>
+        </div>
+
+        <!-- Right Column - Main Content -->
+        <div class="main-content">
+            <div class="badge">software developer</div>
+
+            <h1 class="main-title">
+                Software <span class="highlight">| Developer</span>
+            </h1>
+
+            <p class="description">
+                Mi nombre es Diego Celis Segovia y soy tecnico de software con IA.
+                Enfocado en proporcionar soluciones innovadoras con experiencia en el
+                desarrollo de soluciones tecnológicas eficientes. Domino todas las fases del ciclo de vida del software
+                y tengo una gran habilidad para resolver problemas y ejecutar tareas tecnológicas.
+            </p>
+
+            <div class="technologies-grid">
+                            <div class="tech-item">
+                                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" alt="JavaScript" class="tech-icon">
+                                <span class="tech-name">JavaScript</span>
+                            </div>
+                            <div class="tech-item">
+                                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg" alt="TypeScript" class="tech-icon">
+                                <span class="tech-name">TypeScript</span>
+                            </div>
+                            <div class="tech-item">
+                                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" alt="React" class="tech-icon">
+                                <span class="tech-name">React</span>
+                            </div>
+                            <div class="tech-item">
+                                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg" alt="Node.js" class="tech-icon">
+                                <span class="tech-name">Node.js</span>
+                            </div>
+                            <div class="tech-item">
+                                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" alt="Python" class="tech-icon">
+                                <span class="tech-name">Python</span>
+                            </div>
+                            <div class="tech-item">
+                                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg" alt="MongoDB" class="tech-icon">
+                                <span class="tech-name">MongoDB</span>
+                            </div>
+                            <div class="tech-item">
+                                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original.svg" alt="PostgreSQL" class="tech-icon">
+                                <span class="tech-name">PostgreSQL</span>
+                            </div>
+                            <div class="tech-item">
+                                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" alt="HTML" class="tech-icon">
+<span class="tech-name">HTML</span>
+
+                            </div>
+                            <div class="tech-item">
+                                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nextjs/nextjs-original.svg" alt="Next.js" class="tech-icon">
+                                <span class="tech-name">Next.js</span>
+                            </div>
+                            <div class="tech-item">
+                                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-original.svg" alt="Tailwind" class="tech-icon">
+                                <span class="tech-name">Tailwind</span>
+                            </div>
+                            <div class="tech-item">
+                                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" alt="Git" class="tech-icon">
+                                <span class="tech-name">Git</span>
+                            </div>
+                            <div class="tech-item">
+                                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/php/php-original.svg" alt="PHP" class="tech-icon">
+<span class="tech-name">PHP</span>
+
+                            </div>
+                        </div>
+        </div>
+    </div>
+
+    <!-- HTML -->
+    <section id="experiencia" class="experiencia-section">
+        <div class="experiencia-container">
+            <div class="section-header">
+                <div class="section-badge">Mi Experiencia</div>
+                <h2 class="section-title">
+                    <span class="secondary-text">MI</span>
+                    <span class="primary-text">Experiencia</span>
+                </h2>
+                <p class="section-subtitle">
+                    Mi experiencia laboral en los ultimos 3 años 
+                </p>
+            </div>
+
+            <div class="experiencia-grid">
+                <!-- Experiencia 1 -->
+                <div class="experiencia-card">
+                    <h3 class="cargo">Desarrollador web - IISEP</h3>
+                    <p class="fecha">· Ene 2025 - Mayo 2025</p>
+                    <p class="descripcion">
+                        Desarrollé la página web institucional del Instituto IISEP con enfoque moderno, profesional y
+                        adaptativo. El sitio presenta la información clave del instituto, incluyendo carreras, admisión,
+                        contacto, misión y visión.
+                    </p>
+
+                </div>
+
+                <!-- Experiencia 2 -->
+                <div class="experiencia-card">
+                    <h3 class="cargo">Desarrollador Web - Alayo Motors</h3>
+                    <p class="fecha">· Enero 2024 - Dic 2024</p>
+                    <p class="descripcion">
+                        Diseñé y desarrollé la página web principal del taller automotriz Alayo Motors, enfocándome en
+                        una presentación visual atractiva y una estructura clara para destacar sus servicios mecánicos y
+                        de mantenimiento.
+                    </p>
+
+                </div>
+
+                <!-- Experiencia 3 -->
+                <div class="experiencia-card">
+                    <h3 class="cargo">Desarrollador Web - Cristo Ramos</h3>
+                    <p class="fecha">· Junio 2023 - diciembre 2023</p>
+                    <p class="descripcion">
+                        Desarrollé un dashboard web administrativo para la institución Cristo Ramos, orientado a docentes, que facilita el registro de alumnos, generación de reportes y visualización de estadísticas educativas.
+                    </p>
+
+                </div>
+
+                <!-- Experiencia 4 -->
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Projects Section -->
+    <section id="proyectos" class="projects-section">
+        <div class="section-header">
+            <div class="section-badge">Mis proyectos</div>
+            <h2 class="section-title">
+                <span class="primary-text">Proyectos</span>
+                <span class="secondary-text">Destacados</span>
+            </h2>
+            <p class="section-subtitle">
+                mis proyectos laborales y personales
+            </p>
+        </div>
+
+        <div class="projects-grid">
+            <!-- Project 1 -->
+            <div class="project-card">
+                <div class="project-image">
+                    <img src="img/IISEP.png" alt="Project Image" style="max-width: 100%; border-radius: 8px;" />
+                </div>
+
+                <div class="project-content">
+                    <span class="project-category">PAGINA WEB</span>
+                    <h3 class="project-title modern-text">Pagina-web IISEP</h3>
+                    <p class="project-description">
+                        Instituto internacional de sistemas empresariales / Enero 2025 - Mayo 2025.
+                    </p>
+                    <div class="project-tech">
+                        <span class="tech-tag">html</span>
+                        <span class="tech-tag">css</span>
+                        <span class="tech-tag">javascript</span>
+                    </div>
+                </div>
+            </div>
+
+
+            <!-- Project 2 -->
+            <div class="project-card">
+                <div class="project-image">
+                    <img src="img/alayomotors.png" alt="Project Image" style="max-width: 100%; border-radius: 8px;" />
+                </div>
+
+                <div class="project-content">
+                    <span class="project-category">Pagina web</span>
+                    <h3 class="project-title modern-text">Pagina-web Alayo Motors</h3>
+                    <p class="project-description">
+                        Taller mecanico Alayo motors / Enero 2024 - diciembre 2024.
+                    </p>
+                    <div class="project-tech">
+                        <span class="tech-tag">html</span>
+                        <span class="tech-tag">CSS</span>
+                        <span class="tech-tag">Javascript</span>
+                    </div>
+                    <div class="project-links">
+                        <a href="https://alayomotors.website/" class="project-link primary">
+                            Ver pagina ↗
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Project 3 -->
+            <div class="project-card">
+                <div class="project-image">
+                    <img src="img/graficos.png" alt="Project Image" style="max-width: 100%; border-radius: 8px;" />
+                </div>
+                <div class="project-content">
+                    <span class="project-category">PAGINA WEB</span>
+                    <h3 class="project-title modern-text">Dashboard cristo ramos</h3>
+                    <p class="project-description">
+                        Colegio cristo ramos / Junio 2023 - Diciembre 2024.
+                    </p>
+                    <div class="project-tech">
+                        <span class="tech-tag">PHP</span>
+                        <span class="tech-tag">CSS</span>
+                        <span class="tech-tag">JavaScript</span>
+                        <span class="tech-tag">Bootstrap</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Project 4 -->
+            <div class="project-card">
+                <div class="project-image">
+                    <img src="img/netflix.png" alt="Project Image" style="max-width: 100%; border-radius: 8px;" />
+                </div>
+
+                <div class="project-content">
+                    <span class="project-category">pagina web</span>
+                    <h3 class="project-title modern-text">Web de peliculas</h3>
+                    <p class="project-description">
+                        Pagina web para ver peliculas inspirada en netflix.
+                    </p>
+                    <div class="project-tech">
+                        <span class="tech-tag">React</span>
+                        <span class="tech-tag">tailwindcss</span>
+                        <span class="tech-tag">Nextjs</span>
+                        <span class="tech-tag">nodejs</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Project 5 -->
+            <div class="project-card">
+                <div class="project-image">
+                    <img src="img/game.Ai.png" alt="Project Image" style="max-width: 100%; border-radius: 8px;" />
+                </div>
+
+                <div class="project-content">
+                    <span class="project-category">Website</span>
+                    <h3 class="project-title modern-text">Web de ventas con chatbot</h3>
+                    <p class="project-description">
+                        Pagina de ventas de videojuegos con chatbot integrado.
+                    </p>
+                    <div class="project-tech">
+                        <span class="tech-tag">React</span>
+                        <span class="tech-tag">nodejs</span>
+                        <span class="tech-tag">mongodb</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Project 6 -->
+            <div class="project-card">
+                <div class="project-image">
+                    <img src="img/ecomercee.png" alt="Project Image"
+                        style="max-width: 100%; border-radius: 8px;" />
+                </div>
+
+                <div class="project-content">
+                    <span class="project-category">Pagina web</span>
+                    <h3 class="project-title modern-text">Ecomerce</h3>
+                    <p class="project-description">
+                        Ecomerce de tienda de ropa con pasarela de pago.
+                    </p>
+                    <div class="project-tech">
+                        <span class="tech-tag">react</span>
+                        <span class="tech-tag">nodejs</span>
+                        <span class="tech-tag">mongodb</span>
+                        <span class="tech-tag">Stripe</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Project 7 -->
+            <div class="project-card">
+                <div class="project-image">
+                    <img src="img/tetris.png" alt="Project Image" style="max-width: 100%; border-radius: 8px;" />
+                </div>
+
+                <div class="project-content">
+                    <span class="project-category">juego</span>
+                    <h3 class="project-title modern-text">Tetris</h3>
+                    <p class="project-description">
+                        Tetris desde cero inspirado en el juego original.
+                    <div class="project-tech">
+                        <span class="tech-tag">HTML5</span>
+                        <span class="tech-tag">CSS3</span>
+                        <span class="tech-tag">JavaScript</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Modal para ampliar la imagen -->
+            <div id="imageModal" class="image-modal">
+                <span class="close">&times;</span>
+                <img class="modal-content" id="modalImg">
+            </div>
+
+            <!-- Project 8 -->
+            <div class="project-card">
+                <div class="project-image">
+                    <img src="img/flupybird.png" alt="Project Image" style="max-width: 100%; border-radius: 8px;" />
+                </div>
+
+                <div class="project-content">
+                    <span class="project-category">juego</span>
+                    <h3 class="project-title modern-text">Flupybird</h3>
+                    <p class="project-description">
+                        Flupybird desde cero inspirado en el juego original.
+                    </p>
+                    <div class="project-tech">
+                        <span class="tech-tag">HTML5</span>
+                        <span class="tech-tag">CSS3</span>
+                        <span class="tech-tag">JavaScript</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Project 9 -->
+            <div class="project-card">
+                <div class="project-image">
+                    <img src="img/pacman.png" alt="Project Image" style="max-width: 100%; border-radius: 8px;" />
+                </div>
+
+                <div class="project-content">
+                    <span class="project-category">juego</span>
+                    <h3 class="project-title modern-text">Pacman</h3>
+                    <p class="project-description">
+                        pacman desde cero inspirado en el clasico juego.
+                    </p>
+                    <div class="project-tech">
+                        <span class="tech-tag">HTML5</span>
+                        <span class="tech-tag">CSS3</span>
+                        <span class="tech-tag">JavaScript</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <p>&copy; 2025 MEX.DEV</p>
+    </footer>
+
+    <script>
+        const mobileMenuBtn = document.getElementById("mobileMenuBtn");
+        const navLinks = document.getElementById("navLinks");
+
+        mobileMenuBtn.addEventListener("click", () => {
+            navLinks.classList.toggle("open");
+        });
+    </script>
+
+
+    <script>
+        const modal = document.getElementById("imageModal");
+        const modalImg = document.getElementById("modalImg");
+        const closeBtn = document.querySelector(".image-modal .close");
+
+        document.querySelectorAll(".project-image img").forEach(img => {
+            img.addEventListener("click", () => {
+                modal.style.display = "flex";
+                modalImg.src = img.src;
+            });
+        });
+
+        closeBtn.onclick = () => {
+            modal.style.display = "none";
+        }
+
+        window.onclick = (e) => {
+            if (e.target === modal) {
+                modal.style.display = "none";
+            }
+        }
+    </script>
+
+
+</body>
+
+</html>
